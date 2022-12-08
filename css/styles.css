@@ -1,17 +1,15 @@
 /* typografy donwload */
-* {
-  margin: 1600;
-  padding: 0;
+:root {
+  --container-padding: calc((100% - 1200px) / 2);
 }
-
 body {
-  background:#FFFFFF;
-  font-family: 'Raleway','Roboto';
+  background: #ffffff;
+  font-family: "Raleway", "Roboto";
 }
 
 a {
   text-decoration: none;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -29,10 +27,10 @@ nav {
 }
 
 /* WebStudio */
-nav  a {
+nav a {
   font-size: 26px;
-  font-family: 'Raleway';
-  color: #2196F3;
+  font-family: "Raleway";
+  color: #2196f3;
   font-weight: 700;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -44,23 +42,23 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  list-style-type: none; 
+  list-style-type: none;
 }
 
 /* ul */
-nav  ul  li {
+nav ul li {
   padding: 10px 20px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
 }
-nav  ul  li  a {
+nav ul li a {
   color: #212121;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-nav  ul  li  a:hover {
-  color: #2196F3;
+nav ul li a:hover {
+  color: #2196f3;
 }
 /* email info */
 .header-info {
@@ -76,138 +74,114 @@ nav  ul  li  a:hover {
   padding: 10px 10px;
 }
 .header-info li a:hover {
-  color: #2196F3;
+  color: #2196f3;
   cursor: pointer;
 }
-.container{
-  width:1200;
-  margin-left:auto;
-  margin-right:auto;
-  margin:94px auto;
-
+.container {
+  width: 1200;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 94px auto;
 }
-.container-flex{
+.container-flex {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   list-style: center;
-  justify-content:center;
-  margin:34px;
+  justify-content: center;
+  margin: 34px;
 }
-.images{
-  
-}
-.background-grey{
-  background:#F5F4FA;
+
+.background-grey {
+  background: #f5f4fa;
 }
 /* ###################letras centradas######################### */
-.center{
+.center {
   text-align: center;
 }
 /* ##########################nuestro equipo ########################## */
 
+.card-team {
+  background: #ffffff;
+  /* material shadow v1 */
 
-
-.card-team{
-background: #FFFFFF;
-/* material shadow v1 */
-
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.card-team-body{
+.card-team-body {
   padding: 30px;
 }
-.detalles-Equipo{
-  display:flex;
-  gap:30px;
+.detalles-Equipo {
+  display: flex;
+  gap: 30px;
   list-style: center;
-  justify-content:center;
+  justify-content: center;
 }
 /* ,#################################################### */
-.hero {
-  margin-bottom: 80px;
-  height: 500px;
-  width: 100%;
-  background: #212121;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-left:auto;
-  margin-right:auto;
+.center-button {
+  text-align: center;
 }
-
 .hero-content {
   text-align: center;
 }
 
-.hero-content button { 
-  margin-bottom: 80px;
-  background: #2196F3;
-  border-radius: 4px;
-  border:none;
-  padding:10px;
-  color:white;
+.hero-content button {
+  background: #2196f3;
+  border-radius: 10px;
+  border: none;
+  padding: 30px;
+  color: white;
   padding: 10px 32px;
+  margin: 30px 0px 80px;
   height: 50px;
   cursor: pointer;
-  margin-top: 20px;
 }
 .hero-content button:hover {
   background: #2195f3c2;
   transition: ease 3ms;
 }
 .hero-content h1 {
-  margin-bottom: 80px;
-  font-family: 'Roboto';
+  margin-bottom: 150px;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 /* ########################Atencion a los detalles ############################ */
 
-.ready ul{
- list-style-type: none;
+.ready ul {
+  list-style-type: none;
 }
-.ready ul li{
+.ready ul li {
   width: 270px;
- 
 }
-.detalles-list{
-  display:flex;
+.detalles-list {
+  display: flex;
   justify-content: center;
-  gap:30px;
-  
+  gap: 30px;
 }
-.detalles{
- flex-basis: 100%;
-  
+.detalles {
+  flex-basis: 100%;
 }
-
 
 /* ########################A que nos dedicamos ############################ */
 
-
-.container li{
-  width:374;
-  height:324;
+.container li {
+  width: 374;
+  height: 324;
   list-style-type: none;
 }
-li{
-  display:inline
+li {
+  display: inline;
 }
 
 .button:hover {
-  color: #2196F3;
-
-  
+  color: #2196f3;
 }
-.button li{
+.button li {
   justify-content: center;
   margin-left: 40px;
   width: 145px;
@@ -215,11 +189,10 @@ li{
   list-style-type: none;
   display: flex;
   text-align: center;
- 
 }
 /* ######################## Propiedades de los botones  ############################ */
-.todo{
-  font-family: 'Roboto';
+.todo {
+  font-family: "Roboto";
   font-style: normal;
   width: 9opx;
   height: 20px;
@@ -229,149 +202,232 @@ li{
   cursor: pointer;
   padding: 0px 11px;
   margin-top: 33px;
+  border: none;
 }
-  
-  .todo:hover {
-    background-color:#2196F3 ;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
+
+.todo:hover {
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 /* ########################centrar los botones############################ */
 
-.menu{
+.menu {
   display: flex;
   justify-content: center;
   margin-top: 106px;
-  margin-left:  8px;
+  margin-left: 8px;
   text-align: center;
 }
 
-
-.dark-letter{
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 36px;
-    color:#212121;
+.dark-letter {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  color: #212121;
 }
-.clear-letter{
-    font-style:normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color:#757575
+.clear-letter {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
 }
-h3{
-  color:#212121;
-  font-family:'Roboto';
+h3 {
+  color: #212121;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-} 
-p{
-color:#757575;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
 }
-
-/* ########################pie de pagina############################ */ 
-
-.footer{
-margin-bottom:60px;
-width: 1400px;
-height: 215px;
-background: #2F303A;
-padding-top: 40px;
-
-
-}
-.footer-studio{
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-/* identical to box height */
-  letter-spacing: 0.03em;
-  color: #2196F3;
-  margin-left: 215px;
-
-  
-}
-.footer-text {
-  color: #FFFFFF;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-  letter-spacing: 0.03em;
-  margin-left: 215px; 
-
-  
-}
-.footer-text-clear{
-  font-family: 'Roboto';
+p {
+  color: #757575;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-  margin-left: 215px;
-  
-
 }
 
 /* ########################carpetas del portafolio ############################ */
-.card-portfolio{
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  }
+.card-portfolio {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
-  .team{
-    width: 1500px;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url(../images/team.jpg);
-  }
+.team {
+  width: 1600px;
+  height: 600px;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/team.jpg);
+}
+/* ######################## sobre y telefono ########################### */
+.sobre {
+  width: 16px;
+  height: 11px;
+}
+.telefono {
+  width: 10px;
+  height: 13px;
+}
 
+.email:hover,
+.email:hover .icons-email {
+  fill: #03a9f4;
+  color: #2196f3;
+}
+.telefono:hover,
+.telefono:hover .icons-telefono {
+  fill: #03a9f4;
+  color: #2196f3;
+}
+/*--------*/
+.icons-detalles {
+  width: 70px;
+  height: 70px;
+}
+.icons-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  height: 120px;
+  background-color: #f5f4fa;
+  width: 270px;
+}
 
+.icon-redes {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.redes-sociales1 {
+  display: flex;
+  justify-content: center;
+  padding-left: 110px;
+}
+.icon-redes1 {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+.icon-social {
+  justify-content: center;
+  background-color: transparent;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.icon-social {
+  background-color: transparent;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.icon-social:hover {
+  background-color: #2196f3;
+}
+.icon-social:hover .icon-redes {
+  fill: #ffffff;
+}
 
-
-
-/*barra azul del la solicitud*/
-/* .soluciones{
-  font-family: 'Roboto';
+/*---------------------*/
+.customer-title {
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  justify-content: center;
+  color: #212121;
+  margin-bottom: 44px;
+}
+.customer-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 150px;
+}
+.icon-customer {
+  width: 170px;
+  height: 81px;
+  border: 1px solid #afb1b8;
+  border-radius: 15px;
+  fill: #afb1b8;
+}
+.icon-customer:hover {
+  border-color: #2196f3;
+  fill: #2196f3;
+}
+/*--------------------*/
+.icon-redes1 {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+.redes-sociales1 {
+  display: flex;
+  justify-content: center;
+  padding-left: 110px;
+}
+.icon-social {
+  background-color: transparent;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.soluciones {
+  width: 696px;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  color: #FFFFFF;
-  position: absolute;
-  width: 690px;
-  height: 100px;
-  left: 440px;
-  top: 280px;
-} */
-/* .button{
-  background: #2196F3;
-  border-radius: 4px;
-  border:none;
-  padding:10px;
-  color:white;
-  padding: 10px 32px;
-  position: absolute;
-  width: 261px;
-  height: 50px;
-} */
-/*a que nos dedicamos */
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
 
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+/* boton de servicio */
+.servicio {
+  background: #2196f3;
+  border-radius: 10px;
+  border: none;
+  padding: 30px;
+  color: white;
+  padding: 10px 32px;
+  height: 50px;
+  cursor: pointer;
+}
